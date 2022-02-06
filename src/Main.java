@@ -13,6 +13,10 @@ public class Main
         fallMaintenanceCost =  821.10;
         winterMaintenanceCost = 1149.50;
         yearlyMaintenanceCost = springMaintenanceCost + summerMaintenanceCost + fallMaintenanceCost + winterMaintenanceCost;
-        System.out.println("The spring maintenance was " +springMaintenanceCost + ", the summer maintenance was " + summerMaintenanceCost + ", the fall maintenance was " + fallMaintenanceCost + ", the winter maintenance cost " + winterMaintenanceCost + ", and the yearly maintenance was " + yearlyMaintenanceCost);
+        System.out.println("The spring maintenance cost was: " + springMaintenanceCost);
+        System.out.println("The summer maintenance cost was: " + summerMaintenanceCost);
+        System.out.println("The fall maintenance cost was: " + fallMaintenanceCost);
+        System.out.println("The winter maintenance cost was: " + winterMaintenanceCost);
+        System.out.println("The total yearly maintenance cost was: " + yearlyMaintenanceCost);
     }
 }
